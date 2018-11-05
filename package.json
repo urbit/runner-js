@@ -1,10 +1,10 @@
 {
-  "name": "arvo-tests",
+  "name": "urbit-runner",
   "version": "1.0.0",
-  "description": "Test harness for Urbit arvo distribution",
-  "main": "test.ls",
-  "scripts": {
-    "test": "lsc test.ls"
+  "description": "Urbit js runner for scripting and scraping",
+  "main": "index.js",
+  "bin": {
+    "urbit-runner": "./bin/urbit-runner.js"
   },
   "author": "~fyr",
   "license": "MIT",
